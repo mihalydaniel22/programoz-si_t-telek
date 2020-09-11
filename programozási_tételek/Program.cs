@@ -18,6 +18,7 @@ namespace programozási_tételek
             eldontes();
             kivalasztas();
             kereses();
+            maximum();
             Console.ReadKey();
         }
 
@@ -89,6 +90,18 @@ namespace programozási_tételek
             {
                 Console.WriteLine("A tömben nincs ilyen");
             }
+        }
+        static void maximum()
+        {
+            int max = 0;
+            for (int i = 1; i < tomb.Length; i++)
+            {
+                if (tomb[i] > tomb[max])
+                {
+                    max = i;
+                }
+            }
+            Console.WriteLine("A legnagyobb elem a tömbben: {0} ", tomb[max]);
         }
 
     }

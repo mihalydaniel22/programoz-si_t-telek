@@ -31,3 +31,7 @@
 	- Kiválasztás metódus létrehozása
 	- Hányadik az 50-es
 	- Kiírni a helyét a tömbben
+
+##Keresés(lineáris)
+	- Kereses() metódus létrehozása
+	- Van-e benne 50 és ha van akkor hányadik?

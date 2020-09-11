@@ -17,6 +17,7 @@ namespace programozási_tételek
             oszt3mal();
             eldontes();
             kivalasztas();
+            kereses();
             Console.ReadKey();
         }
 
@@ -72,6 +73,22 @@ namespace programozási_tételek
                 kiv++;
             }
             Console.WriteLine("{0}-dik elem az 50", kiv);
+        }
+        static void kereses()
+        {
+            int keres = 0;
+            while (keres < tomb.Length && tomb[keres] != 50)
+            {
+                keres++;
+            }
+            if (keres < tomb.Length)
+            {
+                Console.WriteLine("A tömmben van 50, a {0}-dik helyen", keres+1);
+            }
+            else
+            {
+                Console.WriteLine("A tömben nincs ilyen");
+            }
         }
 
     }

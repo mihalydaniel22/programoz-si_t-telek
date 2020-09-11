@@ -16,6 +16,7 @@ namespace programozási_tételek
             Osszegzes();
             oszt3mal();
             eldontes();
+            kivalasztas();
             Console.ReadKey();
         }
 
@@ -62,6 +63,15 @@ namespace programozási_tételek
             {
                 Console.WriteLine("A tömben nincs 69");
             }
+        }
+        static void kivalasztas()
+        {
+            int kiv = 0;
+            while (tomb[kiv] != 50)
+            {
+                kiv++;
+            }
+            Console.WriteLine("{0}-dik elem az 50", kiv);
         }
 
     }

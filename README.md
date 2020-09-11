@@ -26,3 +26,8 @@
 	- Eldontes() metódus létrehozása
 	- Van-e a tömbben 69
 	- Eredmény kiírása a console-ra
+
+##Kiválasztás
+	- Kiválasztás metódus létrehozása
+	- Hányadik az 50-es
+	- Kiírni a helyét a tömbben

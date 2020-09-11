@@ -13,6 +13,7 @@ namespace programozási_tételek
         static void Main(string[] args)
         {
             TombKiiras();
+            Osszegzes();
             Console.ReadKey();
         }
 
@@ -22,6 +23,15 @@ namespace programozási_tételek
             {
                 Console.Write("{0}, ", tomb[i]);
             }
+        }
+        static void Osszegzes()
+        {
+            int eredmeny = 0;
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                eredmeny = eredmeny + tomb[i];
+            }
+            Console.WriteLine("Összeg: {0}", eredmeny);
         }
     }
 }

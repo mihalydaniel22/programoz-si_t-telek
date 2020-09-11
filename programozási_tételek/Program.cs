@@ -15,6 +15,7 @@ namespace programozási_tételek
             TombKiiras();
             Osszegzes();
             oszt3mal();
+            eldontes();
             Console.ReadKey();
         }
 
@@ -45,6 +46,22 @@ namespace programozási_tételek
                 }
             }
             Console.WriteLine("3-mal osztható számok száma: {0}", db);
+        }
+        static void eldontes()
+        {
+            int eldont = 0;
+            while (eldont < tomb.Length && tomb[eldont] != 69)
+            {
+                eldont++;
+            }
+            if (eldont < tomb.Length)
+            {
+                Console.WriteLine("A tömmben van 69");
+            }
+            else
+            {
+                Console.WriteLine("A tömben nincs 69");
+            }
         }
 
     }

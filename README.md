@@ -21,3 +21,8 @@
 	- Megszamolas() metódus létrehozása
 	- Hány 3-mal soztható szám van
 	- Eredmény kiírása a console-ra
+
+##Eldöntés
+	- Eldontes() metódus létrehozása
+	- Van-e a tömbben 69
+	- Eredmény kiírása a console-ra

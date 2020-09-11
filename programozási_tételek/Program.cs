@@ -14,6 +14,7 @@ namespace programozási_tételek
         {
             TombKiiras();
             Osszegzes();
+            oszt3mal();
             Console.ReadKey();
         }
 
@@ -31,7 +32,20 @@ namespace programozási_tételek
             {
                 eredmeny = eredmeny + tomb[i];
             }
-            Console.WriteLine("Összeg: {0}", eredmeny);
+            Console.WriteLine("\nÖsszeg: {0}", eredmeny);
         }
+        static void oszt3mal()
+        {
+            int db = 0;
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                if (tomb[i]%3==0)
+                {
+                    db++;
+                }
+            }
+            Console.WriteLine("3-mal osztható számok száma: {0}", db);
+        }
+
     }
 }

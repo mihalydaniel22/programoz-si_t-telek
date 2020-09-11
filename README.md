@@ -15,3 +15,9 @@
   -Osszegzés() metódus létrehozása
 	 -összegzés tétele a tömbön
 	 -eredmény kiírása a console-ra
+
+
+##Megszámolás
+	- Megszamolas() metódus létrehozása
+	- Hány 3-mal soztható szám van
+	- Eredmény kiírása a console-ra
